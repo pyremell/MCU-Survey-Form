@@ -1,0 +1,44 @@
+body,
+html {
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+body {
+  background-image: url("https://i.imgur.com/SsA2byU.jpg");
+  background-size: 112%;
+  color: #fff;
+  font-size: 1.2em; }
+
+#title {
+  text-align: center;
+  margin: auto;
+  padding: 50px; }
+
+#description {
+  margin: auto; }
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20%;
+  padding: 50px 10%;
+  background-color: rgba(106, 255, 93, 0.8); }
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 auto;
+  height: auto;
+  min-height: 100%;
+  background-color: rgba(126, 20, 34, 0.6); }
+
+.label-personal {
+  width: 150px;
+  padding-right: 20px;
+  display: inline-block; }
+
+.input-personal {
+  width: 150px;
+  padding-left: 20px;
+  display: inline-block; }

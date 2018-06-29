@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Marvel Cinematic Universe Survey Form</title>
+  <!-- build:css css/styles.min.css -->
+  <link rel="stylesheet" href="assets/styles/styles.css">
+  <!-- endbuild -->
+</head>
+<body>
+  <div class="wrapper">
+    <h1 id="title">MCU Super-Powered Survey!</h1>
+    
+    <form action="" id="survey-form">
+      <p id="description">Who is Your Favorite Hero in the Marvel Cinematic Universe?</p>
+
+        <!-- Personal Info -->
+        <label for="name" id="name-label" class="label-personal">*Name:</label>
+      
+        <input type="text" placeholder="Enter your name" required id="name" class="input-personal">
+       
+      
+        <label for="email" id="email-label" class="label-personal">*Email:</label>
+      
+        <input type="email" placeholder="Enter your email" required id="email" class="input-personal">
+      
+        <label for="number" id="number-label" class="label-personal">*Age:</label>
+      
+        <input type="number" placeholder="Age" min="1" max="100" id="number" class="input-personal">
+        <!-- Personal Info Ends -->
+
+        <!-- Dropdown -->
+        <label for="dropdown" class="label-content">Select a Hero</label>
+      
+        <select name="hero" id="dropdown" class="input-content">
+          <option value="captain america">Captain America</option>
+          <option value="iron man">Iron Man</option>
+          <option value="thor">Thor</option>
+          <option value="hulk">Hulk</option>
+          <option value="black widow">Black Widow</option>
+          <option value="hawkeye">Hawkeye</option>
+          <option value="scarlet witch">Scarlet Witch</option>
+          <option value="vision">Vision</option>
+          <option value="black panther">Black Panther</option>
+          <option value="ant man">Ant Man</option>
+          <option value="spiderman">Spiderman</option>
+          <option value="wasp">Wasp</option>
+          <option value="doctor strange">Doctor Strange</option>
+          <option value="falcon">Falcon</option>
+          <option value="starlord">Starlord</option>
+          <option value="gamora">Gamora</option>
+          <option value="groot">Groot</option>
+          <option value="rocket">Rocket</option>
+          <option value="drax">Drax</option>
+        </select>
+        <!-- Dropdown Ends -->
+
+        <!-- Radio Buttons -->
+        <label for="movie-type" class="label-content">Which Type of MCU Movie Do You Prefer?</label>
+        <input type="radio" id="movie-type" class="input-content" name="movie-type" value="select">Team-up Movie
+        <input type="radio" id="movie-type" class="input-content" name="movie-type" value="select">Solo Movie
+        <!-- End Radio Buttons -->
+
+        <!-- Checkboxes -->
+        <label for="movie-checkbox" class="label-content">Pick Your Favorite Marvel Movies:</label>
+        <input type="checkbox" id="movie-checkbox" class="input-content" name="movie-checkbox" value="movie-checkbox">Captain America: The Winter Soldier
+        <input type="checkbox" id="movie-checkbox" class="input-content" name="movie-checkbox" value="movie-checkbox">Guardians of the Galaxy
+        <input type="checkbox" id="movie-checkbox" class="input-content" name="movie-checkbox" value="movie-checkbox">Black Panther
+        <input type="checkbox" id="movie-checkbox" class="input-content" name="movie-checkbox" value="movie-checkbox">Spiderman: Homecoming
+        <input type="checkbox" id="movie-checkbox" class="input-content" name="movie-checkbox" value="movie-checkbox">Thor: Ragnarok
+        <input type="checkbox" id="movie-checkbox" class="input-content" name="movie-checkbox" value="movie-checkbox">Avengers: Infinity War
+        <!-- End Checkboxes -->
+
+        <!-- Comments -->
+        <label for="comment-area" class="label-content">Have any ideas or theories about the MCU? Leave a comment:</label>
+        <textarea name="textarea" id="comment-text" class="input-content" cols="30" rows="5">Write your comments here...</textarea>
+        <!-- End Comments -->
+
+        <!-- Submit -->
+        <input type="submit" value="submit" id="submit" class="input-content">
+        <!-- End Submit -->
+
+    </form>
+  </div>
+
+
+  <!-- build:js js/main.min.js -->
+  <script></script>
+  <!-- endbuild -->
+</body>
+</html>
